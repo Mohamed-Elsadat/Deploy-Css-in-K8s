@@ -6,5 +6,5 @@ RUN unzip neogym.zip
 RUN cp -rvf neogym/* .
 RUN rm -rf neogym neogym.zip
 CMD ["apache2ctl","-D","FOREGROUND"]
-EXPOSE 80 22
+EXPOSE 80
 
